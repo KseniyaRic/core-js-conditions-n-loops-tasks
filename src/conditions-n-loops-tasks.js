@@ -457,20 +457,9 @@ function rotateMatrix(matrix) {
  *  [2, 9, 5, 9]    => [2, 5, 9, 9]
  *  [-2, 9, 5, -3]  => [-3, -2, 5, 9]
  */
-/*function sortByAsc(arr) {
-  const m = arr;
-  const n = m.length;
-  for (let i = 1; i < n; i += 1) {
-    const current = m[i];
-    let j = i - 1;
-    while (j >= 0 && m[j] > current) {
-      m[j + 1] = m[j];
-      j -= 1;
-    }
-    m[j + 1] = current;
-  }
-  return arr;
-}*/
+function sortByAsc(/* arr */) {
+  throw new Error('Not implemented');
+}
 
 /**
  * Shuffles characters in a string so that the characters with an odd index are moved to the end of the string at each iteration.
